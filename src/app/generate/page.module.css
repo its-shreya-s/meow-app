@@ -1,0 +1,42 @@
+.bodyWrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 43, 43);
+    color: #ea909d;
+}
+.tile {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  background-color: #fefefe;
+  color: rgb(43, 43, 43);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+}
+
+.tile:hover {
+  transform: scale(0.95);
+  border-color: #ea909d;
+}
+
+.selected {
+  border-color: #ea909d; 
+  background-color: #fff3cd; 
+}
+.downloadBtn {
+  background-color: #ff1493;
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  box-shadow: 0 0 2px #ea909d;
+  transition: all 0.2s ease-in-out;
+}
+
+.downloadBtn:hover {
+  background-color: #ff1493;
+  box-shadow: 0 0 10px #ea909d;
+  color: rgb(235, 235, 235);
+}

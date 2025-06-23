@@ -1,0 +1,52 @@
+.bodyWrapper {
+    overflow-x: hidden;
+    background-color: #ea909d;
+    height: 100vh;
+}
+
+.factSection {
+    background-color: rgb(43, 43, 43);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.didYouKnow {
+    color: #ea909d;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%px;
+}
+
+.buttonSection {
+    color: black;
+}
+
+.factText {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    min-height: 40px;
+}
+
+.catButton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    box-shadow: 0 0 2px #ff1493;
+    transition: all 0.2s ease-in-out;
+}
+
+.catButton:hover {
+    background-color: rgb(43, 43, 43);
+    box-shadow: 0 0 10px #ea909d;
+    color: white;
+}

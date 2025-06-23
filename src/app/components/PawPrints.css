@@ -1,0 +1,32 @@
+.paw-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 40%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.paw-print {
+  position: absolute;
+  font-size: 30px;
+  color: #ea909d;
+  opacity: 0;
+  animation: popAndFade 2s ease-in-out forwards;
+}
+
+@keyframes popAndFade {
+  0% {
+    transform: scale(0.5) rotate(0deg);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2) rotate(20deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 0;
+  }
+}
